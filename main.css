@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+
+/* font-family change in root bootstrap */
+:root {
+  --primary: #e18c50;
+  --primary-dark: #9c4f1b;
+}
+body {
+  font-family: Raleway;
+}
+
+.bg-cover {
+  height: 100vh;
+  background-image: url('./assets/img/background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-vivian {
+  height: 26px;
+  background-color: #0c0703c7;
+  font-size: 12px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.main-content {
+  /* create calc 100vh - 26px height */
+  height: calc(100vh - 26px);
+}
+
+.btn-whatsapp {
+  background-color: var(--primary);
+  color: #0F0704;
+  text-align: center;
+}
+
+.btn-whatsapp:hover {
+  background-color: var(--primary-dark);
+  color: #fff;
+}
+
+.text-tel {
+  padding: 20px 0px;
+  color: #B3B3B3;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #696969;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.atuacao {
+  background-color: #0F0704;
+  padding: 80px 0px;
+}
+
+.btn-outline-primary {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.atuacao h3 {
+  color: white;
+}
+.fa-check {
+  color: #10b44c;
+}
+
+.nav-vivian > li {
+  font-weight: 600;
+  height: 32px;
+}
+
+.bg-cover-vivian {
+  border-top: 1px solid #423029;
+  min-height: 420px;
+  background-image: url('./assets/img/bg-vivian.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+  border-top: 1px solid #423029;
+  background-color: #0F0704;
+  padding: 50px 0px;
+}
+
+.footer h4 {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.footer .nav-item, .footer .nav-link {
+  color: #6c6b6a;
+}
+
+.nav-link {
+  transition: color 0.2s ease-in-out;
+}
+
+.footer .nav-link:hover {
+  color: #fff;
+}
